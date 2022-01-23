@@ -202,14 +202,14 @@ h1 {
 
 .callToActionCard {
     background: #3882f6;
-    padding: 40px 80px;
+    padding: 40px 100px;
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 100px;
     color: white;
-    width: 70%;
+    width: 100%;
 }
 
 .text p {
@@ -230,4 +230,15 @@ h1 {
     border: 2px solid white;
     border-radius: 10px;
     padding: 5px 20px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    min-height: 100px;
+    background: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
