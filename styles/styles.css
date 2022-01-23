@@ -82,3 +82,46 @@ h1 {
 }
 
 /* randomInfo */
+
+.randomInfo {
+    background: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.randomInfo .randomInfoTitle h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.randomInfoCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardText {
+    width: 200px;
+}
+
+.cardImage {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 5%;
+}
+
+/* Testimonial */
