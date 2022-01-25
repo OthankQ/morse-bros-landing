@@ -90,12 +90,16 @@ h1 {
 }
 
 .hero .heroImage {
-    width: 40%;
-    min-height: 300px;
+    width: 50%;
+    height: auto;
     background: grey;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.heroImage img {
+    width: 100%;
 }
 
 /* randomInfo */
